@@ -1,0 +1,39 @@
+name: BlawoHDNetwork
+main: BlawoHD\BlawoHDNetwork\Main
+api: [1.0.0, 2.0.0]
+version: 1.0.0
+author: BlawoHD
+authors: BlawoHDNetwork
+commands:
+    register:
+        description: Registriere dich mit diesem Command
+        aliases: [reg, r]
+    login:
+        description: Logge dich ein mit diesem Command
+        aliases: [log, l]
+    twitter:
+        description: Zeigt dir den Twitternamen
+        usage: /twitter
+    youtube:
+        description: Zeigt dir den Youtubenamen
+        usage: /youtube
+    vote:
+        description: Zeigt dir die Voteseite an
+        usage: /vote
+    abos:
+        description: Zeigt dir die Abonnenten die du für den Youtube/Shou Rang brauchst
+        usage: /abos
+    bewerbung:
+        description: Zeigt dir die Bewerbungsseite an
+        usage: /bewerbung
+    webseite:
+        description: Zeigt dir die Webseite an
+        usage: /webseite
+    plugin:
+        description: Zeigt dir die Webseite für die Plugins an
+        usage: /plugin
+    stats:
+        description: Zeigt dir deine Stats an
+    report:
+        description: Reportet einen Spieler
+    
